@@ -28,10 +28,17 @@
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
+    "nuka-carousel": "^2.3.0",
+    "prop-types": "^15.5.10",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
+    "react-image-slideshow": "^1.5.2",
+    "react-portal": "^3.1.0",
     "react-redux": "4.3.0",
+    "react-responsive-carousel": "^3.1.25",
     "react-router": "^2.0.1",
-    "redux": "^3.0.4"
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.0.4",
+    "tween.js": "^16.6.0"
   }
 }
