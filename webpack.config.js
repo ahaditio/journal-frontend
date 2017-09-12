@@ -21,6 +21,8 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
+    compress : true,
+    public : 'store-client-nestroia1.c9users.io'
   }
 };
