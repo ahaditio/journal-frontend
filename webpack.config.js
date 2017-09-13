@@ -23,6 +23,8 @@ module.exports = {
     historyApiFallback: true,
     contentBase: './',
     compress : true,
-    public : 'store-client-nestroia1.c9users.io'
+    public : 'store-client-nestroia1.c9users.io',
+    host: '0.0.0.0',
+    disableHostCheck: true
   }
 };
