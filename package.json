@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
-    "start": "webpack-dev-server --progress --profile --colors --port=3000 --open",
+    "start": "webpack-dev-server --port=3000 --open",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
@@ -31,13 +31,14 @@
     "nuka-carousel": "^2.3.0",
     "prop-types": "^15.5.10",
     "react": "^0.14.3",
+    "react-bootstrap-carousel": "^1.2.0",
     "react-dom": "^0.14.3",
-    "react-image-slideshow": "^1.5.2",
     "react-portal": "^3.1.0",
     "react-redux": "4.3.0",
     "react-responsive-carousel": "^3.1.25",
     "react-router": "^2.0.1",
     "react-router-dom": "^4.2.2",
+    "react-title-component": "^1.0.1",
     "redux": "^3.0.4",
     "tween.js": "^16.6.0"
   }

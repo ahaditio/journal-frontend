@@ -1,33 +1,24 @@
 import React, { Component } from 'react';
-import SlideShow from 'react-image-slideshow';
+import { React_Bootstrap_Carousel } from 'react-bootstrap-carousel';
 
 export default class Home extends Component{
-    constructor(props){
+    constructor(props) {
         super(props);
-        this.state = {
-            imgsData:[
-                {
-                    url: '/img/ny.jpg'
-                },
-                {
-                    url: '/img/la.jpg'
-                },
-                {
-                    url: '/img/chicago.jpg'
-                }
-            ]
-        };
-    }
-
-    handleSlideshowOpen(index) {
-        this.refs.SlideShow.handleModalOpen(index);
     }
 
     render() {
-        return (
-            <div className="main">
-                <SlideShow imgs={this.state.imgsData} ref="SlideShow"/>
-            </div>
-        );
+      return(
+        <div style={{height:300,margin:20}}>
+          <React_Bootstrap_Carousel
+            animation={true}
+            onSelect={this.onSelect}
+            className="carousel-fade"
+          >
+            <div style={{height:500,width:"100%",backgroundImage:"url(/assets/img/ny.jpg)"}}></div>
+            <div style={{height:500,width:"100%",backgroundImage:"url(/assets/img/la.jpg)"}}></div>
+            <div style={{height:500,width:"100%",backgroundImage:"url(/assets/img/chicago.jpg)"}}></div>
+          </React_Bootstrap_Carousel>
+        </div>
+      )
     }
 }

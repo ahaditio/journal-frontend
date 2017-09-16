@@ -5,7 +5,7 @@ export default class About extends Component{
         return (
 			<div class="row outerDiv">
                 <div class="col-xs-3 col-md-2 imageDiv" >
-					<img src="/img/ny.jpg" alt="" class="img-responsive" />
+					<img src="/assets/img/ny.jpg" alt="" class="img-responsive" />
 				</div>
 				<div>
 					<h2>ABOUT Bookwide</h2>
